@@ -9,9 +9,7 @@ namespace Basic_Game
             Random r = new Random();
 
             int winNumber = r.Next(0, 100);
-
             bool win = false;
-
             int count = 0;
 
             do
@@ -38,11 +36,9 @@ namespace Basic_Game
                     win = true;
                 }
 
-                Console.WriteLine(); ;
+                Console.WriteLine();
             }
             while (win == false);
-
-
         }
     }
 }
